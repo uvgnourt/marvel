@@ -1,0 +1,90 @@
+:root {
+    --green: #008B45;
+    --blue: #56efe7;
+    --purple: #c262da;
+    --blue2:#00eaee;
+}
+.header {
+    background-color: var(--blue);
+    width: 100%;
+    height: 180px;
+    padding: 5px;
+}
+.header-title1 {
+    color: var(--purple);
+    margin-top: 0px;
+    font-size: 43pt;
+    font-family: pacifico;
+    position: static;
+    padding-right: 400px;
+    padding-left: 600px;
+}
+.header-title2 {
+    color: var(--purple);
+    margin-top: 0px;
+    font-size: 32pt;
+    font-family: pacifico;
+    position: static;
+    padding-right: 400px;
+    padding-left: 550px;
+}
+footer {
+    width: 100%;
+    height: 65px;
+    background-color: var(--blue);
+    text-align: center;
+    padding: 5px;
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 14pt;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1100px;
+    background-color:rgb(175, 254, 250);
+    padding-top: 30px;
+}
+.card {
+    width: 30%;
+    height: 400px;
+    background-color: rgb(187, 255, 252);
+    color: white;
+    margin-left: 36px;
+    margin-top: 30px;
+}
+.page-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 50px;
+    margin-left: 660px;
+}
+.page {
+    margin-left: 30px;
+}
+.page1 {
+    text-decoration: none;
+    color: var(--purple);
+    font-size: 16pt;
+}
+.page1:hover {
+    font-weight:bold;
+    transition: all 0.5s;
+}
+.page2 {
+    text-decoration: none;
+    font-size: 16pt;
+    color: #a74cbd;
+    font-weight: bold;
+}
+.card-pic {
+    height: 370px;
+    margin-top: 16px;
+    margin-left: 8px;
+    padding-left: 30px;
+}
+.card:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
